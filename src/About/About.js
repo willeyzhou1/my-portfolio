@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './About.css';
-import garagePic from '../assets/garagepic.jpg'
+import hawaiiPic from '../assets/hawaiipic.jpg'
 
 export default function About() {
     return (
@@ -9,7 +9,7 @@ export default function About() {
                 <div className='bigTitle'>
                     <h1>Hi! I'm Willey.</h1>
                 </div>
-                <img className='selfPortrait' src={garagePic} alt="Me in a garage" width="350" height="500"/>
+                <img className='selfPortrait' src={hawaiiPic} alt="Me in a garage" width="350" height="520"/>
             </div>
         </div>
     );

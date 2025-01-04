@@ -14,6 +14,11 @@
     margin-top: 15vh;
 }
 
+.selfPortrait {
+    border-radius: 5rem;
+    border: 2px solid var(--font-color);
+}
+
 /*
 .about ul {
     display: block;
