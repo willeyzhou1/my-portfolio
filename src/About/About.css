@@ -11,12 +11,41 @@
 .bigTitle {
     font-size: 50px;
     color: white;
-    margin-top: 15vh;
+    margin-top: 5vh;
 }
 
 .selfPortrait {
     border-radius: 5rem;
     border: 2px solid var(--font-color);
+}
+
+.resume {
+    border: 3px solid white;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 2rem auto 0 auto;
+    background-color: rgb(48, 58, 115);
+    transition: background-color 200ms linear;
+    border-radius: 3rem;
+}
+
+.resume:hover {
+    background-color: rgb(55, 73, 173);
+    transition: background-color 200ms linear;
+}
+
+.resumeLink {
+    position: absolute;
+    width: 17.8%;
+    height: 60px;
+    display: block;
+    color: black;
+    border: 3px solid black;
+    border-radius: 3rem;
+}
+
+.resume h2 {
+    color: var(--font-color);
 }
 
 /*

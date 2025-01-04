@@ -9,7 +9,11 @@ export default function About() {
                 <div className='bigTitle'>
                     <h1>Hi! I'm Willey.</h1>
                 </div>
-                <img className='selfPortrait' src={hawaiiPic} alt="Me in a garage" width="350" height="520"/>
+                <img className='selfPortrait' src={hawaiiPic} alt="Me in Hawaii" width="350" height="520"/>
+                <div className='resume'>
+                    <a className='resumeLink' href='../assets/Willey Zhou_Software Engineer_Dec-2024.pdf' target='_blank' rel="noreferrer"></a>
+                    <h2>Download Resume</h2>
+                </div>
             </div>
         </div>
     );
