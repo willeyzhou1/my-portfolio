@@ -20,7 +20,7 @@
 }
 
 .resume {
-    border: 3px solid white;
+    border: 2px solid var(--font-color);
     width: 50%;
     box-sizing: border-box;
     margin: 2rem auto 0 auto;

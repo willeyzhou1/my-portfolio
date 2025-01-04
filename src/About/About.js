@@ -11,8 +11,8 @@ export default function About() {
                 </div>
                 <img className='selfPortrait' src={hawaiiPic} alt="Me in Hawaii" width="350" height="520"/>
                 <div className='resume'>
-                    <a className='resumeLink' href='../assets/Willey Zhou_Software Engineer_Dec-2024.pdf' target='_blank' rel="noreferrer"></a>
-                    <h2>Download Resume</h2>
+                    <a className='resumeLink' href='https://drive.google.com/file/d/1yAV4uAZv3lLIbKe8YorMr88vX5c7DyJ_/view?usp=drive_link' target='_blank' rel="noreferrer"></a>
+                    <h2>View Resume</h2>
                 </div>
             </div>
         </div>
