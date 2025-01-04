@@ -10,7 +10,7 @@ export default class Biography extends Component {
         <div className='biography'>
             <div className='description'>
                 <p>I am currently a 4th-year undergraduate student as a Math-CS major and Cognitive Science Minor at UC San Diego.
-                I am an aspiring fullstack software engineer who has experience using:
+                I am a deeply motivated aspiring fullstack software engineer who has experience using:
                 </p>
                 <div className='slideshow'>
                     <div className='icon-container'>
