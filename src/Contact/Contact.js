@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Contact.css'
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md';
