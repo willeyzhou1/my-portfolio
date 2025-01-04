@@ -11,14 +11,14 @@ export default class Projects extends Component {
     return (
       <div className='pages' id='projects'>
         <h1>Projects</h1>
-        <p>These are some of the projects that I have done :D</p>
+        <p>These are some of the projects that I have completed :D</p>
         <div className='projects'>
           <div className='project'>
             <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3' target='_blank' rel="noreferrer">
             <img src={acm} alt='YStemandChess Logo' height='200px' width='200px' />
               <div className='text'>
                 <h2>Eventify</h2>
-                <p>Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.</p>
+                <p>Created a website that allows for 1000+ students to advertise events happening on campus; worked as a frontend developer</p>
               </div>
             </a>
           </div>
@@ -27,7 +27,7 @@ export default class Projects extends Component {
               <img src={barChart} alt='bar Chart' height='200px' width='200px' />
                 <div className='text'>
                   <h2>Real Estate and Remote Work Analysis</h2>
-                  <p>Utilized Python and Pandas to track trends between real estate demands and remote work.</p>
+                  <p>Utilized Python and Pandas in order to track trends between real estate demands and remote work</p>
                 </div>
             </a>
           </div>
