@@ -32,7 +32,7 @@ export default class Projects extends Component {
             </a>
           </div>
           <div className='project'>
-            <a className='element' href='https://github.com/willeyzhou1/portfolio' target='_blank' rel="noreferrer">
+            <a className='element' href='https://github.com/willeyzhou1/my-portfolio' target='_blank' rel="noreferrer">
               <img src={website} alt='My website' height='200px' width='200px' />
                 <div className='text'>
                   <h2>Portfolio Website</h2>
