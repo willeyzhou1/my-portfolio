@@ -43,7 +43,7 @@
 
 .resumeLink h2 {
     color: var(--font-color);
-    margin: 1rem auto 0 auto;
+    margin: 1.1rem auto 0 auto;
 }
 
 @media screen and (max-width: 800px) {
