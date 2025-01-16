@@ -4,14 +4,14 @@
     margin: 0 auto;
     box-sizing: border-box;
     background-image: url(../assets/starrysky.jpg);
-    display: flex;
+    display: block;
     justify-content: space-evenly;
 }
 
 .bigTitle {
     font-size: 50px;
     color: white;
-    margin-top: 5vh;
+    padding-top: 1px;
 }
 
 .selfPortrait {
@@ -20,7 +20,7 @@
 
 .resume {
     border: 2px solid var(--font-color);
-    width: 50%;
+    width: 30%;
     box-sizing: border-box;
     margin: 2.5rem auto 0 auto;
     background-color: rgb(48, 58, 115);
@@ -44,4 +44,14 @@
 
 .resume h2 {
     color: var(--font-color);
+}
+
+@media screen and (max-width: 800px) {
+    .bigTitle {
+        font-size: 35px;
+    }
+
+    .resume {
+        width: 70%;
+    }
 }
