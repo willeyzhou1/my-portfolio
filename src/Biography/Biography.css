@@ -35,6 +35,7 @@
 .slideshow {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .icon-container {
@@ -93,7 +94,7 @@
     
 }
 .experience {
-    width: 620px;
+    width: 40%;
     display: flex;
     column-gap: 3rem;
     justify-content: space-between;
@@ -113,4 +114,20 @@
     border: 2px solid black;
     background: white;
     border-radius: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .icon-container {
+        margin: 5px 0;
+    }
+
+    .experience {
+        display: block;
+        align-items: center;
+    }
+
+    .YStemAndChess {
+        width: 200px;
+        height: 90px;
+    }
 }

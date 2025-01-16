@@ -64,3 +64,14 @@
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 800px) {
+    .projects {
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .project {
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+}

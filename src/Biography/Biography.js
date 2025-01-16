@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ystemandchess from '../assets/ystemandchess.png'
 import acm from '../assets/acm.png'
 import { DiReact, DiHtml5, DiCss3, DiJavascript, DiGithub, DiNodejs, DiPython, DiMongodb, DiPostgresql } from "react-icons/di"
+import { IoLogoVercel } from "react-icons/io5";
 import './Biography.css'
 
 export default class Biography extends Component {
@@ -49,6 +50,10 @@ export default class Biography extends Component {
                         <i><DiGithub /></i>
                         <h3>Github</h3>
                     </div>
+                    <div className='icon-container'>
+                        <i><IoLogoVercel /></i>
+                        <h3>Vercel</h3>
+                    </div>
 
                 </div>
                 <p>In my free time, I enjoy playing the piano and guitar, playing and watching basketball, and weightlifting.
@@ -64,12 +69,12 @@ export default class Biography extends Component {
                 <h2>YStemandChess</h2>
                 <h4>Software Engineer Intern</h4>
                 <div className='experience'>
-                    <img className='expImage' src={ystemandchess} alt="Me in a garage" width="350" height="130"/>
+                    <img className='expImage YStemAndChess' src={ystemandchess} alt="Me in a garage" width="350" height="130"/>
                     <p>Created methods to add/update user accounts using PostgreSQL and added tests</p>
                 </div>
                 <h2>ACM at UCSD</h2>
                 <h4>Frontend Developer</h4>
-                <div className='experience'>
+                <div className='experience ACM'>
                     <p>Worked in a group of five other members as a frontend developer and presented to 100+ people in a school-wide conference</p>
                     <img className='expImage' src={acm} alt="ACM logo" width="140" height="140"/>
                 </div>

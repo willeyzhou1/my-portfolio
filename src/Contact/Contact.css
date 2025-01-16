@@ -40,7 +40,7 @@
 
 .social:hover {
     transform: translateY(-7px);
-    box-shadow: 0px 25px 20px rgb(11, 11, 11);
+    box-shadow: 0px 15px 10px rgb(11, 11, 11);
     transition: transform 200ms linear, box-shadow 200ms linear;
 }
 .link {
@@ -79,4 +79,18 @@
 
 .email {
     background: linear-gradient(250deg, #641e69, #8a3e91);
+}
+
+@media screen and (max-width: 800px) {
+    .allSocials {
+        display: block;
+    }
+
+    .social {
+        width: 75%;
+    }
+
+    .social:not(.email) {
+        margin-bottom: 2.5rem;
+    }
 }
