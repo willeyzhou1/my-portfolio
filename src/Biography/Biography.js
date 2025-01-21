@@ -10,7 +10,7 @@ export default class Biography extends Component {
     return (
         <div className='biography'>
             <div className='description'>
-                <p>I am currently a 4th-year undergraduate student as a Math-CS major and Cognitive Science Minor at UC San Diego.
+                <p>I am currently a 4th-year undergraduate student as a Math-CS Major and Cognitive Science Minor at UC San Diego.
                 I am a deeply motivated aspiring fullstack software engineer who has experience using:
                 </p>
                 <div className='slideshow'>
