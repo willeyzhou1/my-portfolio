@@ -7,13 +7,40 @@
 }
 
 .bigTitle {
+    display: inline-block;
     font-size: 50px;
     color: white;
     padding-top: 1px;
 }
 
+.bigTitle h1 {
+    box-sizing: border-box;
+    border-right: 4px solid white;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20), cursor 1s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 .selfPortrait {
+    display: block;
     border-radius: 10rem;
+    margin: 0 auto;
 }
 
 .resume {
