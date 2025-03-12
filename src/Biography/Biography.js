@@ -4,6 +4,7 @@ import acm from '../assets/acm.png'
 import { DiReact, DiHtml5, DiCss3, DiJavascript, DiGithub, DiNodejs, DiPython, DiMongodb, DiPostgresql } from "react-icons/di"
 import { IoLogoVercel } from "react-icons/io5";
 import './Biography.css'
+import Icon from '../Components/Icon'
 
 export default class Biography extends Component {
   render() {
@@ -14,47 +15,16 @@ export default class Biography extends Component {
                 I am a deeply motivated aspiring fullstack software engineer who has experience using:
                 </p>
                 <div className='slideshow'>
-                    <div className='icon-container'>
-                        <i><DiReact /></i>
-                        <h3>React</h3>
-                    </div>
-                    <div className='icon-container'>
-                        <i><DiHtml5 /></i>
-                        <h3>HTML</h3>
-                    </div>
-                    <div className='icon-container'>
-                        <i><DiCss3 /></i>
-                        <h3>CSS</h3>
-                    </div>
-                    <div className='icon-container'>
-                        <i><DiJavascript /></i>
-                        <h3>Javascript</h3>
-                    </div>
-                    <div className='icon-container'>
-                        <i><DiNodejs /></i>
-                        <h3>Node.js</h3>
-                    </div>
-                    <div className='icon-container'>
-                        <i><DiPython /></i>
-                        <h3>Python</h3>
-                    </div>
-                    <div className='icon-container'>
-                        <i><DiMongodb /></i>
-                        <h3>MongoDB</h3>
-                    </div>
-                    <div className='icon-container'>
-                        <i><DiPostgresql /></i>
-                        <h3>PostgreSQL</h3>
-                    </div>
-                    <div className='icon-container'>
-                        <i><DiGithub /></i>
-                        <h3>Github</h3>
-                    </div>
-                    <div className='icon-container'>
-                        <i><IoLogoVercel /></i>
-                        <h3>Vercel</h3>
-                    </div>
-
+                    <Icon icon={<DiReact />} title='React' />
+                    <Icon icon={<DiHtml5 />} title='HTML' />
+                    <Icon icon={<DiCss3 />} title='CSS' />
+                    <Icon icon={<DiJavascript />} title='Javascript' />
+                    <Icon icon={<DiNodejs />} title='Node.js' />
+                    <Icon icon={<DiPython />} title='Python' />
+                    <Icon icon={<DiMongodb />} title='MongoDB' />
+                    <Icon icon={<DiPostgresql />} title='PostgreSQL' />
+                    <Icon icon={<DiGithub />} title='Github' />
+                    <Icon icon={<IoLogoVercel />} title='Vercel' />
                 </div>
                 <p>In my free time, I enjoy playing the piano and guitar, playing and watching basketball, and weightlifting.
                     Thank you for stopping by!

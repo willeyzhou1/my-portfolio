@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Projects.css';
+import Project from '../Components/Project.js'
 import acm from '../assets/acm.png'
 import barChart from '../assets/barchart.png'
 import website from '../assets/website.webp'
@@ -13,33 +14,24 @@ export default class Projects extends Component {
         <h1>Projects</h1>
         <p>These are some of the projects that I have completed :D</p>
         <div className='projects'>
-          <div className='project'>
-            <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3' target='_blank' rel="noreferrer">
-            <img src={acm} alt='YStemandChess Logo' height='200px' width='200px' />
-              <div className='text'>
-                <h2>Eventify</h2>
-                <p>Created a website that allows for 1000+ students to advertise events happening on campus; worked as a frontend developer</p>
-              </div>
-            </a>
-          </div>
-          <div className='project'>
-            <a className='element' href='https://github.com/willeyzhou1/Real-Estate-and-Remote-Work-Analysis' target='_blank' rel="noreferrer">
-              <img src={barChart} alt='bar Chart' height='200px' width='200px' />
-                <div className='text'>
-                  <h2>Real Estate and Remote Work Analysis</h2>
-                  <p>Utilized Python and Pandas in order to track trends between real estate demands and remote work</p>
-                </div>
-            </a>
-          </div>
-          <div className='project'>
-            <a className='element' href='https://github.com/willeyzhou1/my-portfolio' target='_blank' rel="noreferrer">
-              <img src={website} alt='My website' height='200px' width='200px' />
-                <div className='text'>
-                  <h2>Portfolio Website</h2>
-                  <p>Coded website using React; utilized HTML/CSS to create creative designs and transitions</p>
-                </div>
-            </a>
-          </div>
+          <Project
+            title="Eventify"
+            description="Created a website that allows for 1000+ students to advertise events happening on campus; worked as a frontend developer"
+            imageSrc={acm}
+            link="https://github.com/acmucsd-projects/sp23-hack-team-3"
+          />
+          <Project
+            title="Real Estate and Remote Work Analysis"
+            description="Utilized Python and Pandas in order to track trends between real estate demands and remote work"
+            imageSrc={barChart}
+            link="https://github.com/willeyzhou1/Real-Estate-and-Remote-Work-Analysis"
+          />
+          <Project
+            title="Portfolio Website"
+            description="Coded website using React; utilized HTML/CSS to create creative designs and transitions"
+            imageSrc={website}
+            link="https://github.com/willeyzhou1/my-portfolio"
+          />
           <hr className='blueBar'></hr>
         </div>
       </div>
