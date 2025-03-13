@@ -36,7 +36,7 @@
     border-radius: 30px;
     box-shadow: 20px 20px 10px gray; */
     width: 90%;
-    background: transparent;
+    background-color: black;
     padding: 2rem 0;
     margin: 0 2rem;
     border-bottom: 3px solid var(--font-color);
