@@ -17,13 +17,13 @@ export default class Projects extends Component {
             title="Eventify"
             description="Created a website that allows for 1000+ students to advertise events happening on campus; worked as a frontend developer"
             imageSrc={acm}
-            link="https://github.com/acmucsd-projects/sp23-hack-team-3"
+            link="https://github.com/willeyzhou1/eventify"
           />
           <Project
             title="Habitizer"
             description="Collaborated with group members to create a mobile app that allows users to create and keep track of routines"
             imageSrc={routine}
-            link="https://github.com/willeyzhou1"
+            link="https://github.com/willeyzhou1/Habitizer"
           />
           <Project
             title="Real Estate and Remote Work Analysis"

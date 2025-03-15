@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import ystemandchess from '../assets/ystemandchess.png'
 import acm from '../assets/acm.png'
-import { DiReact, DiHtml5, DiCss3, DiJavascript, DiGithub, DiNodejs, DiPython, DiMongodb, DiPostgresql } from "react-icons/di"
+import { DiReact, DiHtml5, DiCss3, DiJavascript, DiGithub, DiNodejs, DiPython, DiMongodb, DiPostgresql, DiJava, Di } from "react-icons/di"
 import { IoLogoVercel } from "react-icons/io5";
+import { RiTailwindCssFill } from "react-icons/ri"
 import './Biography.css'
 import Icon from '../Components/Icon'
 
@@ -18,7 +19,9 @@ export default class Biography extends Component {
                     <Icon icon={<DiReact />} title='React' />
                     <Icon icon={<DiHtml5 />} title='HTML' />
                     <Icon icon={<DiCss3 />} title='CSS' />
+                    <Icon icon={<RiTailwindCssFill />} title='TailwindCSS' />
                     <Icon icon={<DiJavascript />} title='Javascript' />
+                    <Icon icon={<DiJava />} title='Java' />
                     <Icon icon={<DiNodejs />} title='Node.js' />
                     <Icon icon={<DiPython />} title='Python' />
                     <Icon icon={<DiMongodb />} title='MongoDB' />
