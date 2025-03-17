@@ -75,16 +75,10 @@
 
 @media screen and (max-width: 800px) {
     .bigTitle {
-        font-size: 35px;
+        font-size: 20px;
     }
 
     .resume {
         width: 70%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .bigTitle {
-        font-size: 25px;
     }
 }
