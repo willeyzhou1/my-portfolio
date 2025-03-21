@@ -4,6 +4,8 @@ import acm from '../assets/acm.png'
 import { DiReact, DiHtml5, DiCss3, DiJavascript, DiGithub, DiNodejs, DiPython, DiMongodb, DiPostgresql, DiJava, Di } from "react-icons/di"
 import { IoLogoVercel } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri"
+import { MdArrowRightAlt } from "react-icons/md";
+
 import './Biography.css'
 import Icon from '../Components/Icon'
 
@@ -16,6 +18,10 @@ export default class Biography extends Component {
                 I am a deeply motivated aspiring fullstack software engineer who has experience using:
                 </p>
                 <div className='slideshow'>
+                    <div className='hoverContainer'>
+                        <p>Hover!</p>
+                        <i><MdArrowRightAlt /></i>
+                    </div>
                     <Icon icon={<DiReact />} title='React' />
                     <Icon icon={<DiHtml5 />} title='HTML' />
                     <Icon icon={<DiCss3 />} title='CSS' />
