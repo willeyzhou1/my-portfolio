@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ystemandchess from '../assets/ystemandchess.png'
 import acm from '../assets/acm.png'
-import { DiReact, DiHtml5, DiCss3, DiJavascript, DiGithub, DiNodejs, DiPython, DiMongodb, DiPostgresql, DiJava, Di } from "react-icons/di"
+import { DiReact, DiHtml5, DiCss3, DiJavascript, DiGithub, DiNodejs, DiPython, DiMongodb, DiPostgresql, DiJava } from "react-icons/di"
 import { IoLogoVercel } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri"
 import { MdArrowRightAlt } from "react-icons/md";

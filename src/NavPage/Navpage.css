@@ -26,6 +26,8 @@
     font-weight: bold;
     padding: 15px;
     border-radius: 40px;
+    background-color: transparent;
+    transition: color 300ms ease, text-decoration 300ms ease, background-color 300ms ease;
 }
 
 .NavBar a:hover {

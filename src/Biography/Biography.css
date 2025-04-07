@@ -59,13 +59,13 @@
 
 @keyframes hoverContainer {
     0% {
-        transform: translateX(-1rem);
+        transform: translateX(-0.7rem);
     }
     50% {
-        transform: translateX(1rem);
+        transform: translateX(0.7rem);
     }
     100% {
-        transform: translateX(-1rem);
+        transform: translateX(-0.7rem);
     }
 }
 
