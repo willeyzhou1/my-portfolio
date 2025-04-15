@@ -89,7 +89,7 @@
 .technology-container {
     display: flex;
     justify-content: center;
-    overflow: auto;
+    flex-wrap: wrap;
     width: 70%;
     margin: 2rem auto;
 }
@@ -138,5 +138,23 @@
     .project {
         width: 80%;
         margin-bottom: 4rem;
+    }
+
+    .left-right-container {
+        display: block;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .technology-container {
+        width: 100%;
+    }
+
+    .project-image {
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
     }
 }
