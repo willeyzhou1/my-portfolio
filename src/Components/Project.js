@@ -1,6 +1,11 @@
 import React from 'react';
 
-const Project = ({ title, description, imageSrc, webLink }) => {
+const getTechnologies = (technologies) =>
+  technologies.map((technology, index) => (
+    <p className='technology' key={index}>{technology}</p>
+  ));
+
+const Project = ({ title, description, imageSrc, webLink, technologies }) => {
 
   return (
     <div className='project'>
@@ -8,7 +13,10 @@ const Project = ({ title, description, imageSrc, webLink }) => {
         <div className='left-right-container'>
           <div className='text'>
             <h2>{title}</h2>
-            <p>{description}</p>
+            <p className='project-description'>{description}</p>
+            <div className='technology-container'>
+              {getTechnologies(technologies)}
+            </div>
           </div>
           <img className='project-image' src={imageSrc} alt={title} height='100%' width='100%' />
         </div>
@@ -18,3 +26,13 @@ const Project = ({ title, description, imageSrc, webLink }) => {
 };
 
 export default Project;
+
+/**
+ * <Project 
+        key={index}
+        title={project.title}
+        description={project.description}
+        imageSrc={project.imageSrc}
+        webLink={project.webLink}
+      />
+ */

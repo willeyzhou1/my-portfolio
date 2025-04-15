@@ -1,3 +1,7 @@
+/* * {
+    border: 2px solid red;
+} */
+
 .pages {
     position: relative;
     background: linear-gradient(rgb(10, 10, 10), rgb(20, 20, 20));
@@ -36,7 +40,7 @@
     border-radius: 30px;
     box-shadow: 20px 20px 10px gray; */
     width: 90%;
-    background-color: rgb(38, 36, 50);
+    background-color: var(--background-color);
     padding: 2rem 0;
     margin: 1.7rem 2rem;
     border-radius: 10px;
@@ -44,21 +48,9 @@
     transition: background-color 250ms ease;
 }
 
-.text {
-    color: var(--font-color);
-}
-
-.text h2 {
-    font-size: 2.5rem;
-}
-
 .project:hover {
     background-color: rgb(67, 64, 88);
     transition: background-color 250ms ease;
-}
-
-.left-right-container {
-    display: flex;
 }
 
 .element {
@@ -69,10 +61,53 @@
     color: black;
 }
 
+.left-right-container {
+    display: flex;
+}
+
+.text {
+    color: var(--font-color);
+}
+
+.text h2 {
+    font-size: 2.5rem;
+}
+
 .text {
     width: 70%;
     height: 100%;
     display: block;
+}
+
+.project-description {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.technology-container {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.technology {
+    border: 2px solid var(--font-color);
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+    cursor: default;
+    background-color: var(--background-color);
+    transition: background-color 100ms linear;
+}
+
+.technology:hover {
+    background-color: rgb(59, 57, 69);
+    transition: background-color 100ms linear;
 }
 
 .project-image {

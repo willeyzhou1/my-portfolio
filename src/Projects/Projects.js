@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './Projects.css';
 import Project from '../Components/Project.js'
-import projectData from './projectData.js'
+import projectData from './projectData'
 
 export default function Projects() {
 
@@ -13,6 +13,7 @@ export default function Projects() {
         description={project.description}
         imageSrc={project.imageSrc}
         webLink={project.webLink}
+        technologies={project.technologies}
       />
     ));
   };
