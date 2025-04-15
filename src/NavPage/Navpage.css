@@ -1,9 +1,10 @@
 .NavBar {
     display: block;
+    position: fixed;
     padding: 0.7rem;
     width: 100%;
     box-sizing: border-box;
-    background-color: black;
+    background-color: transparent;
     z-index: 100000;
 }
 
