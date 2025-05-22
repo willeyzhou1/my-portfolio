@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ystemandchess from '../assets/ystemandchess.png'
 import acm from '../assets/acm.png'
-import { DiReact, DiHtml5, DiCss3, DiJavascript, DiGithub, DiNodejs, DiPython, DiMongodb, DiPostgresql, DiJava } from "react-icons/di"
+import { DiReact, DiHtml5, DiCss3, DiJavascript, DiGithub, DiNodejs, DiPython, DiPostgresql, DiJava, DiFirebase } from "react-icons/di"
 import { IoLogoVercel } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri"
 import { MdArrowRightAlt } from "react-icons/md";
@@ -26,14 +26,14 @@ export default class Biography extends Component {
                     <Icon icon={<DiHtml5 />} title='HTML' />
                     <Icon icon={<DiCss3 />} title='CSS' />
                     <Icon icon={<RiTailwindCssFill />} title='TailwindCSS' />
-                    <Icon icon={<DiJavascript />} title='Javascript' />
+                    <Icon icon={<DiJavascript />} title='JavaScript' />
                     <Icon icon={<DiJava />} title='Java' />
                     <Icon icon={<DiNodejs />} title='Node.js' />
                     <Icon icon={<DiPython />} title='Python' />
-                    <Icon icon={<DiMongodb />} title='MongoDB' />
                     <Icon icon={<DiPostgresql />} title='PostgreSQL' />
                     <Icon icon={<DiGithub />} title='Github' />
                     <Icon icon={<IoLogoVercel />} title='Vercel' />
+                    <Icon icon={<DiFirebase />} title='Firebase' />
                 </div>
                 <p>In my free time, I enjoy playing the piano and guitar, playing and watching basketball, and weightlifting.
                     Thank you for stopping by!

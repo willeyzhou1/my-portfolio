@@ -2,6 +2,7 @@ import acm from '../assets/acm.png'
 import barChart from '../assets/barchart.png'
 import website from '../assets/website.webp'
 import routine from '../assets/routine.png'
+import ucsdLogo from '../assets/UC-San-Diego-Tritons-logo.png'
 
 const projectData = [
     {
@@ -19,6 +20,13 @@ const projectData = [
         "technologies": ["Android Studio", "Java", "Espresso", "SQL", "XML", "Agile Development"]
     },
     {
+      "title": "UCSD Purity Test",
+      "description": "UCSD Purity Test is a website that gives UC San Diego students a score based on their experiences at the university. I used React as the framework for my website and used React Router for page navigation. I also employed a Firebase Realtime Database in order to fetch scores and use the data for a graph that shows score distributions for user engagement.",
+      "imageSrc": ucsdLogo,
+      "webLink": "https://github.com/willeyzhou1/UCSDPurityTest",
+      "technologies": ["React", "JavaScript", "HTML", "TailwindCSS", "Firebase", "Vercel"]
+    },
+    {
         "title": "Real Estate and Remote Work Analysis",
         "description": "Within a team of six, we created a detailed report using Jupyter Notebooks analyzing the relationship between real estate demand and remote work. I used Python, Pandas, and Seaborn in order to generate graphs showing the percentage of remote work and number of real estate bought in major cities.",
         "imageSrc": barChart,
@@ -27,10 +35,10 @@ const projectData = [
     },
     {
         "title": "Portfolio Website",
-        "description": "This portfolio website is a personal project created using React.js. I used Figma to brainstorm ideas and used HTML/CSS to design my website, making use of responsive web design. I modularized my project content into a single data file and rendered it using a .map() function in JavaScript for better scalability and cleaner code. I also used Vercel in order to deploy my website.",
+        "description": "This portfolio website is a personal project created using React. I used Figma to brainstorm ideas and used HTML/CSS to design my website, making use of responsive web design. I modularized my project content into a single data file and rendered it using a .map() function in JavaScript for better scalability and cleaner code. I also used Vercel in order to deploy my website.",
         "imageSrc": website,
         "webLink": "https://github.com/willeyzhou1/my-portfolio",
-        "technologies": ["React", "Javascript", "HTML", "CSS", "Vercel", "Figma"]
+        "technologies": ["React", "JavaScript", "HTML", "CSS", "Vercel", "Figma"]
     }
 ]
 
