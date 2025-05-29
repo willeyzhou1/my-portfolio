@@ -41,7 +41,7 @@
 .selfPortrait {
     display: block;
     border-radius: 10rem;
-    margin: 0 auto;
+    margin: 0 auto 4rem;
 }
 
 .resume {
