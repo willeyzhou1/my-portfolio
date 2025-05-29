@@ -1,5 +1,6 @@
 .about {
     margin: 0 auto;
+    padding: 3rem 0;
     box-sizing: border-box;
     background-image: url(../assets/starrysky.jpg);
     display: block;
