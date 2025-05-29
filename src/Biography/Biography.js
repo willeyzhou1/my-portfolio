@@ -39,17 +39,14 @@ export default class Biography extends Component {
                     Thank you for stopping by!
                 </p>
             </div>
-
             <hr className='blueBar'></hr>
-
             <h1 className='experienceTitle'>Relevant Experience</h1>
-
             <div className='expList'>
                 <h2>YStemandChess</h2>
                 <h4>Software Engineer Intern</h4>
                 <div className='experience'>
                     <img className='expImage YStemAndChess' src={ystemandchess} alt="Me in a garage" width="350" height="130"/>
-                    <p>Created methods to add/update user accounts using PostgreSQL and added tests</p>
+                    <p>Created methods to add/update user accounts using PostgreSQL and added tests; designed chess lessons page using HTML/CSS</p>
                 </div>
                 <h2>ACM at UCSD</h2>
                 <h4>Frontend Developer</h4>
