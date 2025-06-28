@@ -8,7 +8,7 @@ export default function Contact() {
     <div className='contact' id='contact'>
       <h1>Contact Me!</h1>
       <div className='allSocials'>
-          <div className='social linkedin'>
+        <div className='social linkedin'>
           <a className='link' href='https://www.linkedin.com/in/willey-zhou/' target='_blank' rel="noreferrer">
             <i className='icon'><FaLinkedin /></i>
             <p>Linkedin</p>

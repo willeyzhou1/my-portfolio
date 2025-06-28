@@ -3,7 +3,7 @@ import './About.css';
 import elevatorPic from '../assets/elevatorpic.jpg'
 
 export default function About() {
-    const DRIVE_LINK = "https://drive.google.com/file/d/1fztVy8pm-dNfqxu-DNBQQ2t-IEMwxziX/view?usp=sharing"
+    const DRIVE_LINK = "https://drive.google.com/file/d/1lrEgtWeXHLAGPFgqBM8NHcujKrzq2XpW/view?usp=sharing"
     return (
         <div id='about' className='about'>
             <div className='introduction'>
