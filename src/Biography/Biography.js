@@ -14,8 +14,8 @@ export default class Biography extends Component {
     return (
         <div className='biography'>
             <div className='description'>
-                <p>I am currently a 4th-year undergraduate student as a Math-CS Major and Cognitive Science Minor at UC San Diego.
-                I am a deeply motivated aspiring fullstack software engineer who has experience using:
+                <p>I am a recent Math-Computer Science Major and Cognitive Science Minor graduate at UC San Diego.
+                I am a deeply motivated software engineer with experience in:
                 </p>
                 <div className='slideshow'>
                     <div className='hoverContainer'>
@@ -35,9 +35,7 @@ export default class Biography extends Component {
                     <Icon icon={<IoLogoVercel />} title='Vercel' />
                     <Icon icon={<DiFirebase />} title='Firebase' />
                 </div>
-                <p>In my free time, I enjoy playing the piano and guitar, playing and watching basketball, and weightlifting.
-                    Thank you for stopping by!
-                </p>
+                <p>I am currently looking for internship and full time opportunities in software engineering, primarily fullstack and web development. Thanks for visiting :D</p>
             </div>
             <hr className='blueBar'></hr>
             <h1 className='experienceTitle'>Relevant Experience</h1>

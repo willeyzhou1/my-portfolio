@@ -129,11 +129,11 @@
     display: flex;
     column-gap: 3rem;
     justify-content: space-between;
-    margin: 1rem auto 2rem auto;
-    border-bottom: 1px solid var(--font-color);
+    margin: 2rem auto 3rem auto;
+    border: 3px solid gray;
     border-radius: 30px;
     padding: 1rem 5rem;
-    background-color: var(--background-color);
+    background: url(../assets/comet.jpg);
     font-size: 20px;
     align-items: center;
     color: var(--font-color);
@@ -143,6 +143,7 @@
 .experience .expImage {
     background: white;
     border-radius: 1rem;
+    margin: 0.7rem;
 }
 
 @media screen and (max-width: 800px) {
