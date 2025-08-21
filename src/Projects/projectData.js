@@ -10,7 +10,7 @@ const projectData = [
         "description": "I collaborated with a team of six in order to create a fullstack website using React that allows UCSD students to advertise events happening on campus. As a frontend developer, I was in charge of the design of the user profile page, which I created using HTML/CSS and Javascript.",
         "imageSrc": acm,
         "webLink": "https://github.com/willeyzhou1/eventify",
-        "technologies": ["React", "Javascript", "HTML", "CSS", "Node.js"]
+        "technologies": ["React", "JavaScript", "HTML", "CSS", "Node.js"]
     },
     {
         "title": "Habitizer",
