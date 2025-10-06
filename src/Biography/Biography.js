@@ -35,7 +35,7 @@ export default class Biography extends Component {
                     <Icon icon={<IoLogoVercel />} title='Vercel' />
                     <Icon icon={<DiFirebase />} title='Firebase' />
                 </div>
-                <p>I am currently looking for internship and full time opportunities in software engineering, primarily fullstack and web development. Thanks for visiting :D</p>
+                <p>I am currently looking for full time opportunities in software engineering, primarily fullstack and web development. Thanks for visiting :D</p>
             </div>
             <hr className='blueBar'></hr>
             <h1 className='experienceTitle'>Relevant Experience</h1>

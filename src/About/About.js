@@ -15,9 +15,10 @@ export default function About() {
             if(i < headerText.length) {
                 target.innerHTML += headerText[i];
                 i++;
-                setTimeout(typeLetters, 50)
+                setTimeout(typeLetters, 100)
             }
         }
+        target.innerHTML = "";
 
         typeLetters();
     }, []);
