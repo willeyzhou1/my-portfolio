@@ -18,7 +18,7 @@ const Project = ({ title, description, imageSrc, webLink, technologies }) => {
               {getTechnologies(technologies)}
             </div>
           </div>
-          <img className='project-image' src={imageSrc} alt={title} height='100%' width='100%' />
+          <img className='project-image' src={imageSrc} alt={title} height='100%' width='100%' loading="lazy"/>
         </div>
       </a>
     </div>

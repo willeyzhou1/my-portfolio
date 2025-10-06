@@ -43,14 +43,14 @@ export default class Biography extends Component {
                 <h2>YStemandChess</h2>
                 <h4>Software Engineer Intern</h4>
                 <div className='experience'>
-                    <img className='expImage YStemAndChess' src={ystemandchess} alt="Me in a garage" width="350" height="130"/>
+                    <img className='expImage YStemAndChess' src={ystemandchess} alt="Me in a garage" width="350" height="130" loading="lazy"/>
                     <p>Created methods to add/update user accounts using PostgreSQL and added tests; designed chess lessons page using HTML/CSS</p>
                 </div>
                 <h2>ACM at UCSD</h2>
                 <h4>Frontend Developer</h4>
                 <div className='experience ACM'>
                     <p>Worked in a group of five other members as a frontend developer and presented to 100+ people in a school-wide conference</p>
-                    <img className='expImage' src={acm} alt="ACM logo" width="140" height="140"/>
+                    <img className='expImage' src={acm} alt="ACM logo" width="140" height="140" loading="lazy"/>
                 </div>
             </div>
 
