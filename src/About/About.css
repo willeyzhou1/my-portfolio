@@ -20,7 +20,7 @@
     letter-spacing: 5px;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 1.5s steps(20), cursor 0.5s step-end infinite alternate;
+    animation: cursor 0.5s step-end infinite alternate;
 }
 
 @keyframes cursor {
@@ -29,14 +29,6 @@
     }
 }
 
-@keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-}
 
 .selfPortrait {
     display: block;

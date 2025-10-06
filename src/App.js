@@ -8,19 +8,6 @@ import './App.css';
 
 function App() {
   return (
-    /*
-    <div className="App">
-      <Router>
-        <NavPage />
-        <Routes>
-        <Route path="/" element={<About/>}/>
-        <Route path="/projects" element={<Projects/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-        </Routes>
-
-      </Router>
-    </div>
-    */
    <div className="App">
     <NavPage />
     <About />
