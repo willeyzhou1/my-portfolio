@@ -3,7 +3,7 @@ import './About.css';
 import elevatorPic from '../assets/elevatorpic.jpg'
 
 export default function About() {
-    const DRIVE_LINK = "https://drive.google.com/file/d/1lrEgtWeXHLAGPFgqBM8NHcujKrzq2XpW/view?usp=sharing"
+    const DRIVE_LINK = "https://drive.google.com/file/d/1DKcZAM6S1i7QIGlNVG3xF-kkMy3K-lz3/view?usp=sharing"
     const headerText = "Hi! I'm Willey."
     const headerRef = useRef(null);
 
